@@ -3,26 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDemo", "VirtualDemo\VirtualDemo.csproj", "{7BF0E36C-B837-4A65-9053-2FF709DE8571}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualDemo", "VirtualDemo\VirtualDemo.csproj", "{7BF0E36C-B837-4A65-9053-2FF709DE8571}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E732E91F-6119-46CB-9B54-B7B5326F7D97}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionDemo", "ExceptionDemo\ExceptionDemo.csproj", "{8CF307BD-0BF8-45A4-81C8-322502B6F25C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionDemo", "ExceptionDemo\ExceptionDemo.csproj", "{8CF307BD-0BF8-45A4-81C8-322502B6F25C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo1", "TestDemo1\TestDemo1.csproj", "{AF487755-DF74-4968-931C-C0504B8C76DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDemo1", "TestDemo1\TestDemo1.csproj", "{AF487755-DF74-4968-931C-C0504B8C76DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo2", "TestDemo2\TestDemo2.csproj", "{3A78FD5D-9F68-402D-A40E-1CDD4507AADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDemo2", "TestDemo2\TestDemo2.csproj", "{3A78FD5D-9F68-402D-A40E-1CDD4507AADE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo2_Test", "TestDemo2_Test\TestDemo2_Test.csproj", "{C1F36644-8C9E-4E75-B63D-4D0B174EF8F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDemo2_Test", "TestDemo2_Test\TestDemo2_Test.csproj", "{C1F36644-8C9E-4E75-B63D-4D0B174EF8F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismDemo", "PolymorphismDemo\PolymorphismDemo.csproj", "{CFF11C1B-633C-4C05-A5AF-F43D7587F439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolymorphismDemo", "PolymorphismDemo\PolymorphismDemo.csproj", "{CFF11C1B-633C-4C05-A5AF-F43D7587F439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemp", "InterfaceDemp\InterfaceDemp.csproj", "{2EFD240A-66AC-4BD5-BDA7-6EEC4845A9CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemp", "InterfaceDemp\InterfaceDemp.csproj", "{2EFD240A-66AC-4BD5-BDA7-6EEC4845A9CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertiesDemo", "PropertiesDemo\PropertiesDemo.csproj", "{3A54016C-523C-43CB-906C-5F2F057E523C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertiesDemo", "PropertiesDemo\PropertiesDemo.csproj", "{3A54016C-523C-43CB-906C-5F2F057E523C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLab", "InterfaceLab\InterfaceLab.csproj", "{D14E8AFC-6787-4CC1-B7F3-F9BA1289DB38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,10 @@ Global
 		{3A54016C-523C-43CB-906C-5F2F057E523C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A54016C-523C-43CB-906C-5F2F057E523C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A54016C-523C-43CB-906C-5F2F057E523C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14E8AFC-6787-4CC1-B7F3-F9BA1289DB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14E8AFC-6787-4CC1-B7F3-F9BA1289DB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14E8AFC-6787-4CC1-B7F3-F9BA1289DB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14E8AFC-6787-4CC1-B7F3-F9BA1289DB38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
