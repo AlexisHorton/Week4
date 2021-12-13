@@ -12,6 +12,7 @@ namespace InterfaceLab
 
     class Alligator : ICountable
     {
+        public string _Alligator;
         public int Count;
 
         public int GetCount()
@@ -28,10 +29,21 @@ namespace InterfaceLab
         {
            Count++;
         }
-
         public void ResetCount()
         {
             Count = 0;
+        }
+        public override string ToString()
+        {
+            return $"{Count} {_Alligator}";
+        }
+    }
+
+    class CountUtil
+    {
+        public static void Count(ICountable c, int MaxCount)
+        {
+
         }
     }
     class Program
